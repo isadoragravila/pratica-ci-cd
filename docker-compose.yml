@@ -11,7 +11,7 @@ services:
     volumes:
       - pg:/var/lib/postgresql/data
 
-  node:
+  pratica_cicd:
     container_name: pratica_cicd
     build: .
     ports:
