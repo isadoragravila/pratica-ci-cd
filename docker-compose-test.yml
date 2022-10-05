@@ -17,4 +17,4 @@ services:
     env_file:
       - .env.test
     depends_on:
-      - db_cicd
+      - db_test
